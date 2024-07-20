@@ -2,9 +2,6 @@
 
 # where to fetch larger data files, shared job files
 DATA_LOC = osdf:///ospool/uc-shared/public/osg-training/tutorial-fastqc
-# requirements just for this tutorial
-Requirements = TestPool =!= True
-+ProjectName = "USC_Deelman"
 
 # Provide our executable and arguments
 executable = fastqc.sh
